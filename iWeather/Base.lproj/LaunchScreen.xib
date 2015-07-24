@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Văn Tiến Tú. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="20" y="439" width="441" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="iWeather" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
+                    <rect key="frame" x="20" y="14" width="441" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="441" id="3yk-Ye-gDz"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="43" id="5Zg-dZ-7Gy"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="43" id="5ob-s9-Go4"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="20" id="5zM-7T-IwQ"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43" id="7jh-HR-Ng3"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="HDb-di-BRU"/>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="30" id="RRi-WZ-7eG"/>
+                        <constraint firstAttribute="height" constant="43" id="W0w-Vj-D4e"/>
+                        <constraint firstAttribute="width" constant="441" id="fbZ-82-xrp"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="43" id="lJK-U7-Bau"/>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="441" id="ohQ-gv-hi4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bigicon" translatesAutoresizingMaskIntoConstraints="NO" id="pxU-jR-IeN">
+                    <rect key="frame" x="112" y="112" width="256" height="256"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="256" id="6c3-vX-Sy2"/>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="256" id="B3e-TX-L4P"/>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="256" id="GL0-Nj-3Mi"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="256" id="Go8-Sb-mAM"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="256" id="Ifj-Tt-qkq"/>
+                        <constraint firstAttribute="height" constant="256" id="Jev-qj-ho2"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="256" id="Lxy-z2-lGM"/>
+                        <constraint firstAttribute="width" constant="256" id="Rxv-Cp-pjs"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="pxU-jR-IeN" secondAttribute="centerY" id="0GD-GD-5bM"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="2Aw-mY-DVQ"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="bottom" multiplier="1/3" constant="1" id="5cJ-9S-tgC"/>
+                <constraint firstAttribute="centerX" secondItem="pxU-jR-IeN" secondAttribute="centerX" id="6va-9y-d3D"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="top" relation="lessThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" constant="14" id="8p4-I3-yIB"/>
+                <constraint firstAttribute="centerX" secondItem="pxU-jR-IeN" secondAttribute="centerX" id="AQP-t9-Bno"/>
+                <constraint firstAttribute="centerY" secondItem="pxU-jR-IeN" secondAttribute="centerY" id="B2X-6j-XLi"/>
+                <constraint firstAttribute="centerX" secondItem="pxU-jR-IeN" secondAttribute="centerX" id="BzJ-Ba-foi"/>
+                <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="Koa-jz-hwk"/>
+                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
+                <constraint firstAttribute="centerX" secondItem="pxU-jR-IeN" secondAttribute="centerX" id="Q0K-WX-dA2"/>
+                <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="RD7-6E-3sI"/>
+                <constraint firstAttribute="centerY" secondItem="pxU-jR-IeN" secondAttribute="centerY" id="S2y-0n-8zQ"/>
+                <constraint firstAttribute="centerX" secondItem="pxU-jR-IeN" secondAttribute="centerX" id="Y8B-sy-hIn"/>
+                <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
+                <constraint firstItem="pxU-jR-IeN" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="55" id="eRj-s8-M5e"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="fvb-Df-36g"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="top" relation="lessThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" constant="54" id="g3h-6n-l0M"/>
+                <constraint firstAttribute="centerX" secondItem="pxU-jR-IeN" secondAttribute="centerX" id="hCM-0C-sUH"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="top" relation="lessThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="iBn-r8-zhO"/>
+                <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="mbb-yE-l5R"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="pqJ-E6-q2s"/>
+                <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="s6n-tP-qjI"/>
+                <constraint firstAttribute="centerX" secondItem="pxU-jR-IeN" secondAttribute="centerX" id="tiP-f6-i6B"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="503" y="454"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bigicon" width="128" height="128"/>
+    </resources>
+</document>
